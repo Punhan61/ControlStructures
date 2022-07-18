@@ -1,4 +1,4 @@
-
+ï»¿
 #include<iostream>
 #include<conio.h>
 using namespace std;
@@ -15,7 +15,7 @@ void main()
 	*/
 
 	/*int n;
-	cout << "Ââåäèòå êîëè÷åñòâî èòåðàöèé: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¸Ñ‚ÐµÑ€Ð°Ñ†Ð¸Ð¹: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		cout << i << "\t";
@@ -27,20 +27,20 @@ void main()
 #ifdef Number_Factorial
 	int a = 1;
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int i = 1; i <= n; i++)
 	{
 		a = a * i;
 	}
-	cout << "Ôàêòîðèàë ÷èñëà= " << a;
+	cout << "Ð¤Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» Ñ‡Ð¸ÑÐ»Ð°= " << a;
 #endif // Number_Factorial
 
 #ifdef Exponentiation
 	int a;
 	int n;
 	int N = 1;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> a;
-	cout << "Ââåäèòå ñòåïåíü ÷èñëà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ Ñ‡Ð¸ÑÐ»Ð°: "; cin >> n;
 	for (int i = 0;i < n;i++)
 	{
 		N *= a;
